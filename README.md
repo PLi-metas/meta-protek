@@ -1,2 +1,2 @@
 # meta-protek
-Protek BSP layer for PLi's OE
+Protek BSP layer for Open Vision
