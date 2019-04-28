@@ -1,6 +1,8 @@
 # We know about rtc
 include conf/machine/include/build-extras.inc
 
+BOX_BRAND = "protek"
+
 MTD_KERNEL = "mtd1"
 MTD_ROOTFS = "mtd2"
 KERNEL_FILE = "kernel.bin"
