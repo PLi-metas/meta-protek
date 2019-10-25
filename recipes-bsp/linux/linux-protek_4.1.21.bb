@@ -3,7 +3,7 @@ SECTION = "kernel"
 LICENSE = "GPLv2"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
-COMPATIBLE_MACHINE = "9900lx"
+COMPATIBLE_MACHINE = "^(9900lx)$"
 
 inherit kernel machine_kernel_pr
 
