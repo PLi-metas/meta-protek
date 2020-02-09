@@ -25,6 +25,7 @@ RPROVIDES_${KERNEL_PACKAGE_NAME}-image = "${KERNEL_PACKAGE_NAME}-image-${KERNEL_
 
 SRC_URI += "http://source.mynonpublic.com/protek/protek-linux-${PV}-${SRCDATE}.tar.xz \
     file://defconfig \
+    file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc9.patch \
     file://add-dmx-source-timecode.patch \
     file://af9015-output-full-range-SNR.patch \
     file://cxd2820r-output-full-range-SNR.patch \
