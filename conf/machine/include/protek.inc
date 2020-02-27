@@ -1,5 +1,5 @@
 # We know about rtc
-include conf/machine/include/build-extras.inc
+require conf/machine/include/build-extras.inc
 
 BOX_BRAND = "protek"
 
@@ -27,7 +27,7 @@ MACHINE_EXTRA_RRECOMMENDS += "\
     gstreamer1.0-plugin-dvbmediasink \
     "
 
-include conf/machine/include/autoload-filesystems.inc
+require conf/machine/include/autoload-filesystems.inc
 
 DVBMEDIASINK_CONFIG = "--with-wma --with-wmv --with-pcm --with-dtsdownmix --with-vb6 --with-vb8 --with-spark"
 
