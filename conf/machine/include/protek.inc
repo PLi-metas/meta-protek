@@ -38,7 +38,6 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-protek"
 PREFERRED_VERSION_linux-protek = "4.1.21"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "protek-blindscan-utils-dvbc"
 PREFERRED_PROVIDER_virtual/blindscan-dvbs = "protek-blindscan-utils-dvbs"
-PREFERRED_VERSION_nfs-utils ?= "1.2.8"
 
 KERNEL_IMAGETYPE = "vmlinux"
 KERNEL_OUTPUT = "${KERNEL_IMAGETYPE}"
