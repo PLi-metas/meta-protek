@@ -15,7 +15,7 @@ DVBSKYPROVIDER = "kernel"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
     protek-dvb-modules-${MACHINE} \
-    mt7601u \
+    kernel-module-extrawlan-mt7601u \
     firmware-mt7601u \
     "
 
