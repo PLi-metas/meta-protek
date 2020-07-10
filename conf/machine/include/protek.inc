@@ -8,8 +8,6 @@ MTD_ROOTFS = "mtd2"
 KERNEL_FILE = "kernel.bin"
 ROOTFS_FILE = "rootfs.bin"
 
-IMAGEDIR = "${MACHINE}"
-
 DVBPROVIDER = "kernel"
 DVBSKYPROVIDER = "kernel"
 
