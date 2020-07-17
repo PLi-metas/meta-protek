@@ -1,5 +1,3 @@
-KV = "4.1.21"
-GCCREV = "6.3.0"
 SRCDATE = "20170424"
 
 require protek-dvb-modules.inc
