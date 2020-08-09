@@ -1,6 +1,8 @@
 # We know about rtc
 MACHINE_FEATURES_BACKFILL_CONSIDERED += "rtc"
 
+KERNELVERSION = "4.1.21"
+
 BOX_BRAND = "protek"
 
 MTD_KERNEL = "mtd1"
@@ -12,15 +14,14 @@ DVBPROVIDER = "kernel"
 DVBSKYPROVIDER = "kernel"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
-    protek-dvb-modules-${MACHINE} \
-    kernel-module-extrawlan-mt7601u \
-    firmware-mt7601u \
-    "
+	protek-dvb-modules-${MACHINE} \
+	kernel-module-extrawlan-mt7601u \
+	firmware-mt7601u \
+	"
 
 MACHINE_EXTRA_RRECOMMENDS += "\
-    gstreamer1.0-plugin-dvbmediasink \
-    "
-
+	gstreamer1.0-plugin-dvbmediasink \
+	"
 
 DVBMEDIASINK_CONFIG = "--with-wma --with-wmv --with-pcm --with-dtsdownmix --with-vb6 --with-vb8 --with-spark"
 
@@ -28,7 +29,7 @@ TARGET_ARCH = "mipsel"
 DEFAULTTUNE = "mips32el"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-protek"
-PREFERRED_VERSION_linux-protek = "4.1.21"
+PREFERRED_VERSION_linux-protek = "${KERNELVERSION}"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "protek-blindscan-utils-dvbc"
 PREFERRED_PROVIDER_virtual/blindscan-dvbs = "protek-blindscan-utils-dvbs"
 
