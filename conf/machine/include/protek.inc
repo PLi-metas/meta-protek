@@ -17,9 +17,6 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	protek-dvb-modules-${MACHINE} \
 	kernel-module-extrawlan-mt7601u \
 	firmware-mt7601u \
-	"
-
-MACHINE_EXTRA_RRECOMMENDS += "\
 	gstreamer1.0-plugin-dvbmediasink \
 	"
 
