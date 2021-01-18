@@ -17,7 +17,6 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	protek-dvb-modules-${MACHINE} \
 	kernel-module-extrawlan-mt7601u \
 	firmware-mt7601u \
-	gstreamer1.0-plugin-dvbmediasink \
 	"
 
 DVBMEDIASINK_CONFIG = "--with-wma --with-wmv --with-pcm --with-dtsdownmix --with-vb6 --with-vb8 --with-spark"
