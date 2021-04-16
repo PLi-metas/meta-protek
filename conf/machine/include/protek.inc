@@ -10,7 +10,6 @@ MTD_ROOTFS = "mtd2"
 KERNEL_FILE = "kernel.bin"
 ROOTFS_FILE = "rootfs.bin"
 
-DVBSKYPROVIDER = "kernel"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	protek-dvb-modules-${MACHINE} \
